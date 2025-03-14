@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  
+  <!-- CodeGen settings -->
+  <data name="$this.Namespace" xml:space="preserve">
+    <value>GCAnalyzer</value>
+  </data>
+  <data name="$this.PublicClass" xml:space="preserve">
+    <value>true</value>
+  </data>
+  
+  <!-- GCA001: Avoid using GC.Collect directly -->
+  <data name="AvoidUsingGCCollectTitle" xml:space="preserve">
+    <value>Avoid using GC.Collect directly</value>
+  </data>
+  <data name="AvoidUsingGCCollectMessageFormat" xml:space="preserve">
+    <value>Avoid using GC.Collect directly as it can impact performance</value>
+  </data>
+  <data name="AvoidUsingGCCollectDescription" xml:space="preserve">
+    <value>Explicit garbage collection can cause performance issues and should be avoided in most cases.</value>
+  </data>
+  
+  <!-- GCA002: Consider using GC.KeepAlive -->
+  <data name="UseGCKeepAliveTitle" xml:space="preserve">
+    <value>Consider using GC.KeepAlive</value>
+  </data>
+  <data name="UseGCKeepAliveMessageFormat" xml:space="preserve">
+    <value>Consider using GC.KeepAlive for object '{0}' to prevent premature collection</value>
+  </data>
+  <data name="UseGCKeepAliveDescription" xml:space="preserve">
+    <value>In some scenarios, objects might be collected prematurely if they're not referenced elsewhere in the code.</value>
+  </data>
+  
+  <!-- GCA003: Implement proper resource disposal -->
+  <data name="ProperResourceDisposalTitle" xml:space="preserve">
+    <value>Implement proper resource disposal</value>
+  </data>
+  <data name="ProperResourceDisposalMessageFormat" xml:space="preserve">
+    <value>Type '{0}' implements IDisposable but is not being disposed</value>
+  </data>
+  <data name="ProperResourceDisposalDescription" xml:space="preserve">
+    <value>Classes that implement IDisposable should have their Dispose method called when they are no longer needed.</value>
+  </data>
+  
+  <!-- GCA004: Interface methods should not throw exceptions -->
+  <data name="InterfaceMethodNoExceptionsTitle" xml:space="preserve">
+    <value>Interface methods should not throw exceptions</value>
+  </data>
+  <data name="InterfaceMethodNoExceptionsMessageFormat" xml:space="preserve">
+    <value>Interface method '{0}' should not throw exceptions</value>
+  </data>
+  <data name="InterfaceMethodNoExceptionsDescription" xml:space="preserve">
+    <value>Interface methods should define contracts without implementation details like exceptions. Exception handling should be part of the implementation, not the interface.</value>
+  </data>
+  
+  <!-- GCA005: Field naming convention -->
+  <data name="FieldNamingConventionTitle" xml:space="preserve">
+    <value>Use underscore prefix for instance fields</value>
+  </data>
+  <data name="FieldNamingConventionMessageFormat" xml:space="preserve">
+    <value>Field '{0}' should be named with an underscore prefix followed by camelCase: '_variableName'</value>
+  </data>
+  <data name="FieldNamingConventionDescription" xml:space="preserve">
+    <value>Instance fields should follow the naming convention of starting with an underscore (_) followed by camelCase.</value>
+  </data>
+  
+  <!-- GCA006: Avoid hardcoded string literals -->
+  <data name="AvoidHardcodedStringsTitle" xml:space="preserve">
+    <value>Avoid hardcoded string literals</value>
+  </data>
+  <data name="AvoidHardcodedStringsMessageFormat" xml:space="preserve">
+    <value>Consider using string constants or resources instead of hardcoded string: "{0}"</value>
+  </data>
+  <data name="AvoidHardcodedStringsDescription" xml:space="preserve">
+    <value>Hardcoded string literals can make code less maintainable and harder to localize. Use constants, resource files, or configuration values instead.</value>
+  </data>
+</root> 
