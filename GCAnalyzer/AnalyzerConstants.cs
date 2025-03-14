@@ -8,7 +8,7 @@ namespace GCAnalyzer
         /// <summary>
         /// Base URL for help documentation. Change this to your actual documentation location.
         /// </summary>
-        public const string HelpLinkBaseUrl = "https://github.com/Devoo-Consulting/GCAnalyzer/blob/main/docs/rules/";
+        public const string HelpLinkBaseUrl = "https://github.com/Klixtos/GCAnalyzer/tree/main/GCAnalyzer/docs/rules/";
         
         /// <summary>
         /// Format to use when creating a help link for a specific rule
